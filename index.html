@@ -8,6 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <script src="script.js"></script>
     <title>Groovin</title>
 </head>
@@ -26,7 +31,8 @@
         </ul>
         <a href=""><button>GET STARTED</button></a>
     </div>
-    <div class="city" id="city1">
+    <div class="slider">
+    <div class="city active">
         <img src="img/city.jpg">
        
         <h1>Grow Your Business</h1>
@@ -35,26 +41,188 @@
             repellendus deleniti vel. Minus et tempore modi architecto.</p>
      <a href=""><button class="rm-btn">READ MORE</button></a>
     </div>
-    <div class="city" id="city2">
-        <img src="img/city.jpg">
+    <div class="city">
+        <img src="img/city2.jpg">
        
-        <h1>Grow Your Business</h1>
+        <h1>Lorem Ipsum Dolor</h1>
         <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. 
             Occaecati alias dolorem mollitia ut. <br>Similique ea voluptatem. Esse doloremque accusamus 
             repellendus deleniti vel. Minus et tempore modi architecto.</p>
      <a href=""><button class="rm-btn">READ MORE</button></a>
     </div>
-    <div class="city" id="city3">
-        <img src="img/city.jpg">
+    <div class="city">
+        <img src="img/city3.jpg">
        
-        <h1>Grow Your Business</h1>
+        <h1>Sequi ea ut et est quaerat</h1>
         <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. 
             Occaecati alias dolorem mollitia ut. <br>Similique ea voluptatem. Esse doloremque accusamus 
             repellendus deleniti vel. Minus et tempore modi architecto.</p>
      <a href=""><button class="rm-btn">READ MORE</button></a>
+    </div>
+    <div class="navigation">
+        <i class="fas fa-angle-left prev-btn"></i>
+        <i class="fas fa-angle-right next-btn"></i>
+      </div>
+      <div class="navigation-visibility">
+        <div class="slide-icon active"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+      </div>
+</div>
+</div>
+<div class="container">
+    <div class="split split__left">
+      <img src="https://www.jobboardfinder.com/news/wp-content/uploads/2021/07/team.jpg" alt="Team">
+    </div>
+    <div class="split split__right">
+      <header>
+        <h1>Voluptatem dignissimos provident quasi</h1>
+        <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+      </header>
+      <div class="content">
+        <div class="column">
+          <svg width="24" height="24" viewBox="0 0 24 24">
+                      <path d="M19.875 3H4.125C2.953 3 2 3.897 2 5v14c0 1.103.953 2 2.125 2h15.75C21.047 21 22 20.103 22 19V5c0-1.103-.953-2-2.125-2zm0 16H4.125c-.057 0-.096-.016-.113-.016-.007 0-.011.002-.012.008L3.988 5.046c.007-.01.052-.046.137-.046h15.75c.079.001.122.028.125.008l.012 13.946c-.007.01-.052.046-.137.046z"></path>
+                      <path d="M6 7h6v6H6zm7 8H6v2h12v-2h-4zm1-4h4v2h-4zm0-4h4v2h-4z"></path>
+                  </svg>
+          <div class="text">
+            <h2>Corporis voluptates sit</h2>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+          </div>
+        </div>
+        <div class="column">
+          <svg width="24" height="24" viewBox="0 0 24 24">
+                      <path d="M17.895 3.553A1.001 1.001 0 0 0 17 3H7c-.379 0-.725.214-.895.553l-4 8a1 1 0 0 0 0 .895l4 8c.17.338.516.552.895.552h10c.379 0 .725-.214.895-.553l4-8a1 1 0 0 0 0-.895l-4-7.999zM19.382 11h-7.764l-3-6h7.764l3 6zM4.118 12 7 6.236 9.882 12 7 17.764 4.118 12zm12.264 7H8.618l3-6h7.764l-3 6z"></path>
+                  </svg>
+          <div class="text">
+            <h2>Ullamco laboris nisi</h2>
+            <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+          </div>
+        </div>
+        <div class="column">
+          <svg width="24" height="24" viewBox="0 0 24 24">
+                      <path d="M11.024 11.536 10 10l-2 3h9l-3.5-5z"></path>
+                      <circle cx="9.503" cy="7.497" r="1.503"></circle>
+                      <path d="M19 2H6c-1.206 0-3 .799-3 3v14c0 2.201 1.794 3 3 3h15v-2H6.012C5.55 19.988 5 19.806 5 19s.55-.988 1.012-1H21V4c0-1.103-.897-2-2-2zm0 14H5V5c0-.806.55-.988 1-1h13v12z"></path>
+                  </svg>
+          <div class="text">
+            <h2>Labore consequatur</h2>
+            <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+          </div>
+        </div>
+        <div class="column">
+          <svg width="24" height="24" viewBox="0 0 24 24">
+                      <path d="M20.995 6.903a.997.997 0 0 0-.547-.797l-7.973-4a.997.997 0 0 0-.895-.002l-8.027 4c-.297.15-.502.437-.544.767-.013.097-1.145 9.741 8.541 15.008a.995.995 0 0 0 .969-.009c9.307-5.259 8.514-14.573 8.476-14.967zm-8.977 12.944c-6.86-4.01-7.14-10.352-7.063-12.205l7.071-3.523 6.998 3.511c.005 1.87-.481 8.243-7.006 12.217z"></path>
+                  </svg>
+          <div class="text">
+            <h2>Beatae veritatis</h2>
+            <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+          </div>
+        </div>
+        <section class="counters" id="counters">
+          <div class="container2" id="container2">
+            <div>
+              <i class="far fa-smile"></i>
+              <div class="counter" data-target="232">0</div>
+              <p>Happy Clients consequuntur quae</p>
+            </div>
+            <div>
+              <i class="fas fa-book"></i>
+              <div class="counter" data-target="521">0</div>
+              <p>Projects adipisci atque cum quia aut</p>
+            </div>
+            <div>
+              <i class="fas fa-headphones"></i>
+              <div class="counter" data-target="1463">0</div>
+              <p>Hours Of Support aut commodi quaerat</p>
+            </div>
+            <div>
+              <i class="fas fa-user-friends"></i>
+              <div class="counter" data-target="15">0 </div>
+              <p>Hard Workers rerum asperiores dolor</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+    <div class="clients">
+      <img src="img/myob.png">
+      <img src="img/belimo.png">
+      <img src="img/LifeGroups.png">
+      <img src="img/Lilly.png">
+      <img src="img/Trustly.png">
+      <img src="img/Citrus.png">
+    </div>
+    <div class="services">
+      <h2>services</h2>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. 
+        Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui<br> impedit suscipit alias ea. 
+        Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <div class="icon-box">
+          <i class="bi bi-briefcase"></i>
+            <h4>Lorem Ipsum</h4>
+            <p>Voluptatum deleniti atque corrupti quos dolores et<br>  quas molestias excepturi sint occaecati cupiditate non<br> provident</p>
+        </div>
+        <div class="icon-box">
+          <i class="bi bi-card-checklist"></i>
+          <h4>Dolor Sitema</h4>
+          <p>Minim veniam, quis nostrud exercitation ullamco<br> laboris nisi ut aliquip ex ea commodo consequat tarad<br> limino ata</p>
+        </div>
+        <div class="icon-box">
+          <i class="bi bi-bar-chart"></i>
+          <h4>Sed ut perspiciatis</h4>
+          <p>Duis aute irure dolor in reprehenderit in voluptate<br> velit esse cillum dolore eu fugiat nulla pariatur</p>
+        </div>
+        <div class="icon-box">
+          <i class="bi bi-binoculars"></i>
+          <h4>Magni Dolores</h4>
+          <p>Excepteur sint occaecat cupidatat non proident, sunt<br> in culpa qui officia deserunt mollit anim id est<br> laborum</p>
+        </div>
+        <div class="icon-box">
+          <i class="bi bi-brightness-high"></i>
+          <h4>Nemo Enim</h4>
+          <p>At vero eos et accusamus et iusto odio dignissimos <br>ducimus qui blanditiis praesentium voluptatum<br> deleniti atque</p>
+        </div>
+        <div class="icon-box">
+          <i class="bi bi-calendar4-week"></i>
+          <h4>Eiusmod Tempor</h4>
+          <p>Et harum quidem rerum facilis est et expedita<br> distinctio. Nam libero tempore, cum soluta nobis est<br> eligendi</p>
+        </div>
+      </div>
+      
+        <div class="whyus">
+          <h2>WHY US</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. 
+            Quisquam quos quisquam cupiditate. Et nemo qui<br> impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+        <div class="box">
+          <div class="float-left">
+            <h1>01</h1>
+            <h3>Lorem Ipsum</h3>
+            <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+          </div>
+          <div class="float-left">
+            <h1>02</h1>
+            <h3>Repellat Nihil</h3>
+            <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+          </div>
+          <div class="float-left">
+            <h1>03</h1>
+            <h3>Ad ad velit qui</h3>
+            <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+          </div>
+        </div>
+    
+    <div class="portfolio">
+      <h1>PORTFOLIO</h1>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex 
+        aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam
+         cupiditate. Et nemo qui<br> impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
     </div>
     
-</div>
+  
 
 </body>
 </html>
